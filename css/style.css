@@ -1,12 +1,75 @@
 body{
     background-color: black;
+    display: block;
+    flex-direction: reverse;
 }
 header{
     color: green;
 }
-.menu{
-    list-style-type: none;
+.menu-list{
+    text-align: justify;
     float: left;
-    display: block;
-    color:white;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: white;
+    background-color: #cacfc8;
+}
+.menu{
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 95px;
+    text-align: center;
+    color: black;
+}
+.menu:hover{
+    font-weight: 900;
+}
+.container {
+  display: flex;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+/* Remaining CSS is identical to original */
+.text {
+  display: flex;
+  overflow: hidden;
+  border-right: .15em solid green;
+  white-space: nowrap;
+  animation: typing 2s steps(40, end), blink-caret .5s steps(20, end) infinite;
+  font-size: 2em;
+  color: green;
+  font-family: 'Inconsolata', monospace;
+}
+
+.text {
+  display: inline-flex;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent
+  }
+  50% {
+    border-color: green;
+  }
 }
