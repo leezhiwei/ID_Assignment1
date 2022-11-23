@@ -39,7 +39,7 @@ header{
   margin: auto;
   text-align: center;
 }
-/* Remaining CSS is identical to original */
+
 .lintext {
   display: flex;
   overflow: hidden;
@@ -83,7 +83,17 @@ header{
     border-color: green;
   }
 }
-.linux{
-  color: white;
+.linuxtitlediv{
+  display: block;
   text-align: center;
+}
+.linuxtitle{
+  color: white;
+  font-size: 400%;
+  font-family: 'Montserrat', sans-serif;
+}
+.whatlinux{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
 }
