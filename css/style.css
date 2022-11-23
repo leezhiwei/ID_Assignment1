@@ -31,16 +31,26 @@ header{
 }
 
 .center {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   margin: auto;
   text-align: center;
 }
 /* Remaining CSS is identical to original */
-.text {
+.lintext {
   display: flex;
   overflow: hidden;
   border-right: .15em solid green;
   white-space: nowrap;
   animation: typing 2s steps(40, end), blink-caret .5s steps(20, end) infinite;
+  font-size: 2em;
+  color: green;
+  font-family: 'Inconsolata', monospace;
+}
+.text {
   font-size: 2em;
   color: green;
   font-family: 'Inconsolata', monospace;
@@ -72,4 +82,8 @@ header{
   50% {
     border-color: green;
   }
+}
+.linux{
+  color: white;
+  text-align: center;
 }
