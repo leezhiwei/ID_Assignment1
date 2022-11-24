@@ -97,3 +97,11 @@ header{
   font-family: 'Open Sans', sans-serif;
   font-size: large;
 }
+.footercontainer{
+  display: block;
+}
+.footercontent{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
