@@ -91,6 +91,7 @@ header{
   color: white;
   font-size: 400%;
   font-family: 'Montserrat', sans-serif;
+  opacity: 1;
 }
 .whatlinux{
   color:white;
@@ -104,4 +105,49 @@ header{
   color: white;
   font-family: 'Oswald', sans-serif;
   text-align: center;
+}
+.topbarimage{
+  background-size: cover;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/metasploit.png);
+  background-color: purple;
+  background-position: center;
+}
+.cmdlineimage{
+  background-size: cover;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/terminal.png);
+  background-color: purple;
+  background-position: center;
+}
+.userfriendlyimage{
+  background-size: cover;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/kdedesktop.png);
+  background-color: purple;
+  background-position: center;
+}
+.userfriendlyimage{
+  background-size: cover;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/kdedesktop.png);
+  background-color: purple;
+  background-position: center;
+}
+.ubuntuimage{
+  background-size: cover;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/ubuntu-desktop.jpg);
+  background-color: purple;
+  background-position: center;
 }
