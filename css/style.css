@@ -91,7 +91,6 @@ header{
   color: white;
   font-size: 400%;
   font-family: 'Montserrat', sans-serif;
-  opacity: 1;
 }
 .whatlinux{
   color:white;
@@ -150,4 +149,8 @@ header{
   ),url(../images/ubuntu-desktop.jpg);
   background-color: purple;
   background-position: center;
+}
+.tableclass {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
 }

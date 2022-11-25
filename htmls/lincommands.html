@@ -28,4 +28,64 @@
             <p class = "linuxtitle">Linux Command Line</p>
         </div>
     </div>
+    <div class="center">
+        <p class="whatlinux">This page is a list of basic commands that you can execute from a Linux machine.</p>
+    </div>
+    <div class="center">
+        <table class = "tableclass">
+            <tr>
+                <th>Linux Command and (common arguments)</th>
+                <th>Description</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>ls (-lah) {directory name}</td>
+                <td>ls is the command to list out contents of the current working directory</td>
+                <td>The current working directory is the folder you are currently in. 
+                    Equivalent to dir in Windows. 
+                    l flag is for list, a is for list all, h is to show hidden files.</td>
+            </tr>
+            <tr>
+                <td>cd {directory}</td>
+                <td>cd is the command to enter a directory.</td>
+                <td>This command essentially allows you to enter or exit a folder, ../ to enter the previous path.</td>
+            </tr>
+            <tr>
+                <td>sudo {command}</td>
+                <td>sudo is to execute any command as SuperUser.</td>
+                <td>This command allows you to run any command that needs additional privileges that your current user does 
+                    not have, for example, the ability to back up web directories.</td>
+            </tr>
+            <tr>
+                <td>pwd</td>
+                <td>pwd is to allow you to see your current working directory.</td>
+                <td>The current working directory is where you are executing the command from, eg /home/lee</td>
+            </tr>
+            <tr>
+                <td>cat {filename}</td>
+                <td>cat allows you to print out a file into the current console.</td>
+                <td>cat essentially prints out a file's content to the terminal, regardless if it is binary, it will try and print it out.</td>
+            </tr>
+            <tr>
+                <td>cp (-r) {source} {destination}</td>
+                <td>cp allows you to copy files/folders, if your user has permission.</td>
+                <td>cp essentially allows you to copy files by default, you are able to give absolute paths, like /home/lee/Desktop, or relative paths like ../Desktops. The -r flag is the recursive flag where you can copy all the contents of a folder.</td>
+            </tr>
+            <tr>
+                <td>mv {source} {destination}</td>
+                <td>mv allows you to move files, if your user has permission.</td>
+                <td>mv has the same syntax as cp, also able to give absolute or relative paths.</td>
+            </tr>
+            <tr>
+                <td>mkdir {foldername}</td>
+                <td>mkdir allows you to create folders, if your user has permission.</td>
+                <td>mkdir is able to create folders in folders that you have permission to. Also can create folder in other directories using absolute or relative path.</td>
+            </tr>
+            <tr>
+                <td>rm (-rfi) {target}</td>
+                <td>rm allows you to remove folders/files (dangerous)</td>
+                <td>Flags for rm includes r, f, i. r is recursive and goes into every folder to delete the contents. f is to force the delete. i is to ask user input for each file. This is dangerous as you are able to delete / (root) if you have privileges and destroys your machine. Targets includes files and folders and can contain relative or absolute paths.</td>
+            </tr>
+        </table>
+    </div>
 </html>

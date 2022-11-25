@@ -8,6 +8,9 @@ I will be doing a website on Linux. Pages includes
 4. The user-friendliness of Linux
 5. Advanced Linux things.
 
+# Source of information
+1. Linux Command list : https://www.hostinger.com/tutorials/linux-commands
+
 # Source of pictures
 1. Tux: https://commons.wikimedia.org/wiki/File:Tux.png#/media/File:Tux.svg
 2. Ubuntu Desktop: https://news.itsfoss.com/ubuntu-22-04-release/
