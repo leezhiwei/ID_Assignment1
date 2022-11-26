@@ -4,7 +4,8 @@ const text = textarray[index];
 const changedoc = document.querySelector('.lintext')
 const year = new Date().getFullYear();
 const footer = document.querySelector(".footercontent");
+footer.textContent = `Lee Zhi Wei, ${year}`;
 for (let x = 0; x < text.length; x++){
     changedoc.textContent += text[x];
 }
-footer.textContent = `Lee Zhi Wei, ${year}`;
+
