@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="../css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter&family=Montserrat:wght@600&family=Open+Sans:ital,wght@1,700&family=Oswald&display=swap" rel="stylesheet">    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js" defer></script>
     <title>Linux Commands</title>
@@ -86,6 +86,64 @@
                 <td>rm allows you to remove folders/files (dangerous)</td>
                 <td>Flags for rm includes r, f, i. r is recursive and goes into every folder to delete the contents. f is to force the delete. i is to ask user input for each file. This is dangerous as you are able to delete / (root) if you have privileges and destroys your machine. Targets includes files and folders and can contain relative or absolute paths.</td>
             </tr>
+            <tr>
+                <td>touch {file}</td>
+                <td>touch allows you to generate a blank file.</td>
+                <td>As with the previous commands. You can only create a file if you have permission, also works with absolute or relative path.</td>
+            </tr>
+            <tr>
+                <td>find {directory} {expression}</td>
+                <td>find allows you to find a file within a specific folder, using expressions.</td>
+                <td>For find, you are able to use regex (more learning), or you can use flags like -name {filename} or -type {type} to specify what type of file/folder you are looking for, types includes but are not limited to h for hidden, d for directories.</td>
+            </tr>
+            <tr>
+                <td>grep {string} {file} OR {initial command} | grep {string}</td>
+                <td>grep allows you to find a specific string in a file, or output of a command.</td>
+                <td>There are 2 basic ways to use grep, to pipe the command into grep, or let grep have direct access to file. For example, you can do a direct access, like grep eth0 /var/log/syslog, or a pipe like dmesg | grep eth0. A pipe is this |, and this allows the piping of data to another application.</td>
+            </tr>
+            <tr>
+                <td>dmesg</td>
+                <td>dmesg allows you to see the kernel log upon bootup, if you have privileges.</td>
+                <td>A kernel log contains what the system basically verbosely outputs, for example a wireless module being unable to be loaded, or declaring how many CPU cores are present. Kernel logs have a lot of diagnostic data that is good for troubleshooting.</td>
+            </tr>
+            <tr>
+                <td>head {option} {file} OR {initial command} | head {option}</td>
+                <td>head shows the first few lines of the file, or output of command.</td>
+                <td>As with grep, it allows piping of commands. -n flag is to set how many lines are shown.</td>
+            </tr>
+            <tr>
+                <td>tail {option} {file} OR {initial command} | tail {option}</td>
+                <td>tail shows the last few lines of the file, or output of command.</td>
+                <td>Same syntax as head, as with grep, it allows piping of commands. -n flag is to set how many lines are shown.</td>
+            </tr>
+            <tr>
+                <td>chmod {attributes} {file}</td>
+                <td>chmod allows you to change the attributes of a file.</td>
+                <td>There are 2 main ways to change these for users, for example +x to add the execute bit, -w to remove the writable bit. There is also a numerical method, where each group has its bit, and you add the numbers together. For example, 4 is read, 2 is write and execute. So, using numerical, if I want to make a file +rwx, it will be chmod 777.</td>
+            </tr>
+            <tr>
+                <td>chown {user} {file}</td>
+                <td>chown allows you to change the owner of a file/folder.</td>
+                <td>To use this command, you have to be the superuser, or a higher privilege than the user you are changing ownership to.</td>
+            </tr>
+            <tr>
+                <td>ping {ip}</td>
+                <td>ping allows you to test if an IP address is up, via sending ICMP packets and waiting for reply.</td>
+                <td>ping only works if target IP address have not blocked ICMP packets.</td>
+            </tr>
+            <tr>
+                <td>wget {ip/path/to/file}</td>
+                <td>wget allows you to retrieve a file from the internet.</td>
+                <td>This command allows you to download a specific file from a server. For example, wget https://test.xyz/script.sh, to retrieve the script.sh file from test.xyz.</td>
+            </tr>
+            <tr>
+                <td>uname {options}</td>
+                <td>uname prints out information about the kernel.</td>
+                <td>uname has multiple flags, like -a to print out all information, -s for kernel name, like Darwin on MacOS, or Linux on Linux.</td>
+            </tr>
         </table>
+    </div>
+    <div class = "footercontainer">
+        <p class = "footercontent">&nbsp;</p>
     </div>
 </html>
