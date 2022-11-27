@@ -10,6 +10,7 @@ I will be doing a website on Linux. Pages includes
 
 # Source of information
 1. Linux Command list : https://www.hostinger.com/tutorials/linux-commands
+2. History of Linux : https://en.wikipedia.org/wiki/History_of_Linux
 
 # Source of pictures
 1. Tux: https://commons.wikimedia.org/wiki/File:Tux.png#/media/File:Tux.svg

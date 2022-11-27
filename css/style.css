@@ -109,7 +109,7 @@ header{
 .footercontainer{
   display: block;
 }
-.footercontent{
+footer{
   color: white;
   font-family: 'Oswald', sans-serif;
   text-align: center;
