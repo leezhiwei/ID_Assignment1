@@ -39,6 +39,15 @@ header{
   margin: auto;
   text-align: center;
 }
+.right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: right;
+  align-content: right;
+  align-items: right;
+  margin: auto;
+  text-align: right;
+}
 
 .lintext {
   display: flex;
@@ -154,6 +163,6 @@ header{
   color: white;
   font-family: 'Open Sans', sans-serif;
   border: 1px;
-  border-style: double;
+  border-style:ridge;
   border-color: white;
 }
