@@ -8,6 +8,8 @@ I will be doing a website on Linux. Pages includes
 4. The user-friendliness of Linux
 5. Advanced Linux things.
 
+# Inspire codes from
+1. BlockCode reference: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes
 # Source of information
 1. Linux Command list : https://www.hostinger.com/tutorials/linux-commands
 2. History of Linux : https://en.wikipedia.org/wiki/History_of_Linux
