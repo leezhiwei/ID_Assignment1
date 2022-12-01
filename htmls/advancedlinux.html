@@ -28,4 +28,105 @@
             <p class = "linuxtitle">Advanced Linux Features</p>
         </div>
     </div>
+    <div class="center">
+        <p class="whatlinux">
+            Linux is very advanced, and can be used to do many different things from compiling the kernel from scratch, to setting scheduled task in order to do some server maintainence.
+            On the note of scheduling task, I will teach you how to set up a crontab, which is basically a script or command that you run regularly.
+        </p>
+    </div>
+    <div class="center">
+        <p class="whatlinux">Below is the command for crontab and the syntax of it.</p>
+    </div>
+    <div class="center">
+        <p class="text">crontab {-l,e}</p>
+    </div>
+    <div class="center">
+        <p class="whatlinux">Basically -e is to edit the crontab file and -l is to list the contents of the crontab file.</p>
+    </div>
+    <div class="center">
+        <p class="linuxtitle">
+            Content of the crontab file.
+        </p>
+    </div>
+    <div class="center">
+        <p class="whatlinux">
+            The syntax of crontab content is shown below.
+        </p>
+    </div>
+    <div class="center">
+        <p class="text">{minute} {hour} {day of month} {month of year} {day of week} {command or script to execute}</p>
+    </div>
+    <div class="center">
+        <p class="whatlinux">
+            Take note that the time, eg minutes hour day can be replaced with * to repeat. Example of command or script is
+        </p>
+    </div>
+    <div class="center">
+        <p class="text">touch /var/log/log.log</p>
+    </div>
+    <div class="center">
+        <p class="linuxtitle">Installing packages on Linux</p>
+    </div>
+    <div class="center">
+        <p class="whatlinux">
+            Every program on most Linux distributions are distributed as a package, so it is very important to know how to install a package though a command line.
+            It also varies throughout which version of Linux you are using, regardless if it is Arch Linux, Ubuntu (Debian), or even Alpine Linux. I will try and cover it here.
+            The order of installing packages is to, update the local repository, update local packages (if necessary), then install package.
+        </p>
+    </div>
+    <div class="center">
+        <p class="whatlinux">
+            For Debian-based distributions, the commands are shown below in sequence of update repository, upgrade packages, and finally installing the package itself.
+            Additionally, last command is to search for packages.
+        </p>
+    </div>
+    <div class="center">
+        <p class="text">sudo apt update</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo apt upgrade</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo apt install {package name}</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo apt search {search term}</p>
+    </div>
+    <div class="center">
+        <p class="whatlinux">
+            For Arch-based distributions, the commands are shown below in sequence of update repository, upgrade packages, and finally installing the package itself.
+            Additionally, last command is to search for packages.
+        </p>
+    </div>
+    <div class="center">
+        <p class="text">sudo pacman -Syy (case-sensitive)</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo pacman -Syyu (case-sensitive)</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo pacman -S {package name} (case-sensitive)</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo pacman -Ss {search term}</p>
+    </div>
+    <div class="center">
+        <p class="whatlinux">
+            For Alpine-based distributions, the commands are shown below in sequence of update repository, upgrade packages, and finally installing the package itself.
+            Additionally, last command is to search for packages.
+        </p>
+    </div>
+    <div class="center">
+        <p class="text">sudo apk update</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo apk upgrade</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo apk install {package name}</p>
+    </div>
+    <div class="center">
+        <p class="text">sudo apk search {search term}</p>
+    </div>
+    <footer>&nbsp;</footer>
 </html>
