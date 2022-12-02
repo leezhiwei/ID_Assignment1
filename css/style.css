@@ -275,5 +275,6 @@ video{
   .center img, .right img, video{
     height:200px;
     width:400px;
+    z-index:-1;
   }
 }
