@@ -10,6 +10,7 @@ I will be doing a website on Linux. Pages includes
 
 # Inspire codes from
 1. BlockCode reference: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes
+2. Live saver, able to change menu into full screen cause of this: https://github.com/rdefa001/menu
 # Source of information
 1. Linux Command list : https://www.hostinger.com/tutorials/linux-commands
 2. History of Linux : https://en.wikipedia.org/wiki/History_of_Linux
@@ -21,3 +22,5 @@ I will be doing a website on Linux. Pages includes
 4. KDE Desktop: https://commons.wikimedia.org/wiki/File:KDE_Plasma_5.26_screenshot.png
 5. Metasploit Picture: https://resources.infosecinstitute.com/topic/vulnerability-scanning-metasploit-part-ii/
 6. Ventura: https://code2care.org/macos/how-to-screenshot-mac-ventura-13-step-by-step-guide
+7. Hamburger: https://commons.wikimedia.org/wiki/File:Hamburger_icon_white.svg
+8. Close Button: https://icons8.com/icons/set/close-button--white
