@@ -1,6 +1,14 @@
 const textarray = ["cd Desktop","ls -la","uname -a","ssh root@localhost","sudo apt update","dmesg | tail"];
 const index = Math.floor(Math.random() * textarray.length);
-const text = textarray[index];
+let text = "";
+if (window.screen.availWidth <= 360)
+{
+    text = "ls -l";
+}
+else
+{
+    text = textarray[index];
+}
 const changedoc = document.querySelector('.lintext')
 const year = new Date().getFullYear();
 const footer = document.querySelector("footer");
