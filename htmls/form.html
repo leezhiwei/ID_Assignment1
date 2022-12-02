@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter&family=Montserrat:wght@600&family=Open+Sans:ital,wght@1,700&family=Oswald&display=swap" rel="stylesheet">    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+    <title>Sign-Up form for Linux Course.</title>
+</head>
+<body>
+    <a href="../index.html"><img src="../images/tux.svg" alt="Tux the penguin" class="tux" width="100" height="100"></a>
+    <nav>
+        <ul class="menu-list">
+            <li><a href="../index.html" class="menu">Home Page</a></li>
+            <li><a href="../htmls/lincommands.html" class="menu">Linux Commands</a></li>
+            <li><a href="../htmls/userfriendly.html" class="menu">How userfriendly is Linux?</a></li>
+            <li><a href="../htmls/whatislinux.html" class="menu">What is Linux?</a></li>
+            <li><a href="../htmls/advancedlinux.html" class="menu">Advanced Linux Features</a></li>
+            <li><a href="../htmls/form.html" class="menu">Sign-Up form for Linux Course</a></li>
+        </ul>
+    </nav>
+    <p class="linuxtitle">Sign-Up form for Linux Course.</p>
+    <div class="center">
+        <p class="whatlinux">This form is for the sign-up of my Linux course, I will be teaching the basics and useful features about Linux, like compilation of Linux kernel and customising your experience.</p>  
+    </div>
+    <div class="center">
+            <form action="#">
+            <p class="whatlinux">Name</p>
+            <input type="text" required>
+            <p class="whatlinux">Email</p>
+            <input type="email">
+            <p class="whatlinux">Gender</p>
+            <select name="gender" id="genders">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            <p class="whatlinux">Contact No.</p>
+            <input type="tel" pattern="[6,8,9]{1}[0-9]{7}" placeholder="81234567">
+            <p class="whatlinux">What kind of Linux stuff do you want me to focus on?</p>
+            <input type="text" required>
+            <p class="whatlinux">Time for course</p>
+            <input type="time" required>
+            <p class="whatlinux">Which date you want the course to be conducted?</p>
+            <input type="date" required>
+            <p class="whatlinux">Do you want it to be in person or online?</p>
+            <input type="radio" id="online" value="Online" name="typeoflearning">
+            <label for="online" class="whatlinux">Online Learning</label>
+            <input type="radio" id="facetoface" value="FaceToFace" name="typeoflearning">
+            <label for="FaceToFace" class="whatlinux">Face to face Learning</label>
+            <p class="whatlinux">Which contact method do you want to be contacted by?</p>
+            <input type="checkbox" id="phonecall" name="contact" value="phonecall">
+            <label for="phonecall" class="whatlinux">Phone Calls</label>
+            <input type="checkbox" id="whatsapp" name="contact" value="whatsapp">
+            <label for="phonecall" class="whatlinux">WhatsApp</label>
+            <input type="checkbox" id="sms" name="contact" value="sms">
+            <label for="phonecall" class="whatlinux">SMSes</label>
+            <input type="checkbox" id="email" name="contact" value="email">
+            <label for="phonecall" class="whatlinux">Emails</label>
+            <input type="checkbox" id="telegram" name="contact" value="telegram">
+            <label for="phonecall" class="whatlinux">Telegram</label><br>
+            <p class="whatlinux">Any comments?</p>
+            <textarea></textarea><br>
+            <button type="submit" value="Submit" class="button">Submit this form</button>
+        </form>
+    </div>
+    <footer>&nbsp;</footer>
+</body>
+</html>
