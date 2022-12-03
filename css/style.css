@@ -280,4 +280,7 @@ video{
   body{
     font-size:60%;
   }
+  #menu-overlay ul li{
+    font-size: 200%;
+  }
 }
