@@ -108,6 +108,7 @@ footer{
   color: white;
   font-family: 'Oswald', sans-serif;
   text-align: center;
+  font-size:170%;
 }
 .topbarimage{
   background-size: cover;
@@ -291,5 +292,8 @@ video{
   }
   #menu-overlay ul li{
     font-size: 200%;
+  }
+  footer{
+    font-size:200%;
   }
 }
