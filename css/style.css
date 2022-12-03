@@ -154,6 +154,15 @@ footer{
   background-color: purple;
   background-position: center;
 }
+.teacherimg{
+  background-size: cover;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(../images/teacher.jpg);
+  background-color: purple;
+  background-position: center;
+}
 .tableclass, th, td {
   color: white;
   font-family: 'Open Sans', sans-serif;

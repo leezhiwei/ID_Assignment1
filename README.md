@@ -24,3 +24,4 @@ I will be doing a website on Linux. Pages includes
 6. Ventura: https://code2care.org/macos/how-to-screenshot-mac-ventura-13-step-by-step-guide
 7. Hamburger: https://commons.wikimedia.org/wiki/File:Hamburger_icon_white.svg
 8. Close Button: https://icons8.com/icons/set/close-button--white
+9. Teacher Teaching: https://depositphotos.com/11388954/stock-photo-math-teacher.html
