@@ -7,7 +7,7 @@ This website aims to educate people more about Linux, and this is mostly filled 
  
 This website is for someone who is computer-literate but unaware and wants to learn more about Linux.  I made this website with some important information for users, like where did Linux come from, some list of commands etc.
 
-Here is the link of my wireframe in this GitHub Repository. [Wireframe](wireframe/wireframe.xd)
+Here is the link of my wireframe in this GitHub Repository. [Wireframe](wireframe/ID_S10239812_Assg1_wireframe.xd)
 ## Features
 1. Auto-Typing text console, with a list of commands. (With JS)
 2. Responsive navigation menu.
