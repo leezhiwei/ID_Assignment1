@@ -210,6 +210,7 @@ blockquote:after {
   font-family: 'Inconsolata', monospace;
   color: white;
   font-size: 40px;
+  text-decoration: none;
 }
 textarea {
   width: 300px;
