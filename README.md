@@ -16,12 +16,12 @@ I will be doing a website on Linux. Pages includes
 2. History of Linux : https://en.wikipedia.org/wiki/History_of_Linux
 
 # Source of pictures
-1. Tux: https://commons.wikimedia.org/wiki/File:Tux.png#/media/File:Tux.svg
-2. Ubuntu Desktop: https://news.itsfoss.com/ubuntu-22-04-release/
-3. Linux Console: https://commons.wikimedia.org/wiki/File:Knoppix-3.8-boot.png
-4. KDE Desktop: https://commons.wikimedia.org/wiki/File:KDE_Plasma_5.26_screenshot.png
-5. Metasploit Picture: https://resources.infosecinstitute.com/topic/vulnerability-scanning-metasploit-part-ii/
-6. Ventura: https://code2care.org/macos/how-to-screenshot-mac-ventura-13-step-by-step-guide
-7. Hamburger: https://commons.wikimedia.org/wiki/File:Hamburger_icon_white.svg
-8. Close Button: https://icons8.com/icons/set/close-button--white
-9. Teacher Teaching: https://depositphotos.com/11388954/stock-photo-math-teacher.html
+1. [Tux](https://commons.wikimedia.org/wiki/File:Tux.png#/media/File:Tux.svg)
+2. [Ubuntu Desktop](https://news.itsfoss.com/ubuntu-22-04-release/)
+3. [Linux Console](https://commons.wikimedia.org/wiki/File:Knoppix-3.8-boot.png)
+4. [KDE Desktop](https://commons.wikimedia.org/wiki/File:KDE_Plasma_5.26_screenshot.png)
+5. [Metasploit Picture](https://resources.infosecinstitute.com/topic/vulnerability-scanning-metasploit-part-ii/)
+6. [Ventura](https://code2care.org/macos/how-to-screenshot-mac-ventura-13-step-by-step-guide)
+7. [Hamburger](https://commons.wikimedia.org/wiki/File:Hamburger_icon_white.svg)
+8. [Close Button](https://icons8.com/icons/set/close-button--white)
+9. [Teacher Teaching](https://depositphotos.com/11388954/stock-photo-math-teacher.html)

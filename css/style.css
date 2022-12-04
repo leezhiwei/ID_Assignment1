@@ -36,14 +36,6 @@ header{
   margin: auto;
   text-align: center;
 }
-.right {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: right;
-  margin: auto;
-  text-align: right;
-}
-
 .lintext {
   display: flex;
   overflow: hidden;
