@@ -36,7 +36,7 @@
         <p class="whatlinux">This form is for the sign-up of my Linux course, I will be teaching the basics and useful features about Linux, like compilation of Linux kernel and customising your experience.</p>  
     </div>
     <div class="center">
-            <form action="#">
+            <form action="#" id="course">
             <p class="whatlinux">Name</p>
             <input type="text" required>
             <p class="whatlinux">Email</p>
@@ -56,7 +56,7 @@
             <p class="whatlinux">Which date you want the course to be conducted?</p>
             <input type="date" required>
             <p class="whatlinux">Do you want it to be in person or online?</p>
-            <input type="radio" id="online" value="Online" name="typeoflearning">
+            <input type="radio" id="online" value="Online" name="typeoflearning" required>
             <label for="online" class="whatlinux">Online Learning</label>
             <input type="radio" id="facetoface" value="FaceToFace" name="typeoflearning">
             <label for="facetoface" class="whatlinux">Face to face Learning</label>
@@ -72,7 +72,7 @@
             <input type="checkbox" id="telegram" name="contact" value="telegram">
             <label for="phonecall" class="whatlinux">Telegram</label><br>
             <p class="whatlinux">Any comments?</p>
-            <textarea></textarea><br>
+            <textarea name="comment" form="course"></textarea><br>
             <button type="submit" value="Submit" class="button">Submit this form</button>
         </form>
     </div>
